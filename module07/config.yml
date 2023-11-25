@@ -1,0 +1,10 @@
+# Это простой пример шаблона! Можете изменить и дополнить шаблон по вашему усматрению.
+
+service:
+  name: Project
+  port: 8080
+  replicaset: 0
+
+  container:
+    image: "pgAdmin:pgAdm"
+    env_file: 
