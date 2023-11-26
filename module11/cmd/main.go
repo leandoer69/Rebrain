@@ -10,7 +10,7 @@ func main() {
 	mux := chi.NewMux()
 	mux.HandleFunc("/hello", helloHandler)
 
-	_ = http.ListenAndServe("localhost:8080", mux)
+	_ = http.ListenAndServe(":8080", mux)
 }
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
