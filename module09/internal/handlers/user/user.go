@@ -4,7 +4,7 @@ import (
 	"Rebrain/module09/internal/entities"
 	userRep "Rebrain/module09/internal/repositories/user"
 	"encoding/json"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 	"io/ioutil"
 	"net/http"
 	"strconv"

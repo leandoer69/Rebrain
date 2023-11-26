@@ -3,7 +3,7 @@ package chi
 import (
 	"Rebrain/module09/internal/constants"
 	"Rebrain/module09/internal/handlers/user"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 	"net/http"
 )
 
